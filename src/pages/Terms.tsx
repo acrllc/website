@@ -34,7 +34,7 @@ function Terms() {
           The terms and conditions governing the use of ACR Enterprises LLC products and services.
         </p>
         <p className="text-xs text-cyber-steel/50 uppercase tracking-wider mb-12">
-          Last Updated: July 14, 2026
+          Last Updated: May 21, 2026
         </p>
 
         <div className="h-px bg-gradient-to-r from-cyber-blue/30 via-white/10 to-transparent mb-12" />
