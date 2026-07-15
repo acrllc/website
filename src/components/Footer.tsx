@@ -34,7 +34,7 @@ function Footer() {
                 href="mailto:contact@acrenterprises.io"
                 className="hover:text-cyber-blue transition-colors"
               >
-                contact@acrenterprises.io
+                info@acrenterprises.us
               </a>
             </div>
           </div>
