@@ -1,224 +1,237 @@
-import React from 'react';
-import { Shield, Lock, FileText, Globe, CheckCircle, Smartphone, AlertCircle, Users } from 'lucide-react';
+import { Shield, ArrowLeft } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
-export default function PrivacyPolicy() {
+function Privacy() {
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 py-16 px-4 sm:px-6 lg:px-8 font-sans">
-      <div className="max-w-4xl mx-auto">
-        
-        {/* Header Section */}
-        <div className="text-center border-b border-slate-800 pb-10 mb-12">
-          <div className="inline-flex p-3 bg-blue-500/10 rounded-full text-blue-400 mb-4 animate-pulse">
-            <Shield className="w-12 h-12" />
+    <div className="relative min-h-screen bg-navy-950 overflow-hidden">
+      <div className="absolute inset-0 bg-hero-gradient" />
+      <div
+        className="absolute inset-0 bg-grid-pattern opacity-20"
+        style={{ backgroundSize: '50px 50px' }}
+      />
+      <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[500px] h-[300px] bg-cyber-blue/5 rounded-full blur-3xl" />
+
+      <div className="relative z-10 max-w-3xl mx-auto px-6 lg:px-10 pt-32 pb-24">
+        <Link
+          to="/"
+          className="inline-flex items-center gap-2 text-sm text-cyber-silver/60 hover:text-cyber-blue transition-colors mb-10"
+        >
+          <ArrowLeft size={16} />
+          Back to Home
+        </Link>
+
+        <div className="flex items-center gap-4 mb-3">
+          <div className="flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-br from-navy-700 to-navy-900 border border-cyber-blue/20">
+            <Shield size={26} className="text-cyber-blue" />
           </div>
-          <h1 className="text-4xl font-extrabold tracking-tight bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-500 bg-clip-text text-transparent sm:text-5xl">
-            Privacy Policy
-          </h1>
-          <p className="mt-4 text-lg text-slate-400">
-            How ACR Enterprises LLC collects, uses, and protects your information.
+          <span className="section-label">Legal</span>
+        </div>
+
+        <h1 className="heading-display text-4xl lg:text-5xl font-bold gradient-text mb-4">
+          Privacy Policy
+        </h1>
+        <p className="text-cyber-silver/60 text-base lg:text-lg mb-3">
+          How ACR Enterprises LLC collects, uses, and protects your information.
+        </p>
+        <p className="text-xs text-cyber-steel/50 uppercase tracking-wider mb-12">
+          Last Updated: May 21, 2026
+        </p>
+
+        <div className="h-px bg-gradient-to-r from-cyber-blue/30 via-white/10 to-transparent mb-12" />
+
+        {/* ==================== EDIT CONTENT BELOW ==================== */}
+
+        <div className="space-y-8">
+          <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+            At <strong className="text-white">ACR Enterprises LLC</strong> (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or
+            &ldquo;our&rdquo;), operating our corporate website, SaaS applications, e-commerce storefronts, 
+            and media publications including <em className="text-cyber-blue not-italic font-semibold">TheTrendVibe</em> and <em className="text-cyber-blue not-italic font-semibold">Nexo24</em> (collectively, the &ldquo;Services&rdquo;), one of our main priorities is the privacy of our visitors, customers, and subscribers. This Privacy Policy document contains the types of information that is collected and recorded by us and how we use it.
           </p>
-          <div className="mt-4 inline-block bg-slate-900 border border-slate-800 rounded-full px-4 py-1.5 text-xs text-slate-400 font-mono">
-            Last Updated: May 21, 2026
-          </div>
-        </div>
 
-        {/* Introduction */}
-        <div className="prose prose-invert max-w-none mb-12 text-slate-300 leading-relaxed space-y-6">
-          <p>
-            At <strong className="text-white">ACR Enterprises LLC</strong> ("we", "us", or "our"), operating our corporate website, SaaS applications, e-commerce storefronts, and media publications including <em className="text-blue-400 not-italic font-semibold">TheTrendVibe</em> and <em className="text-blue-400 not-italic font-semibold">Nexo24</em> (collectively, the "Services"), one of our main priorities is the privacy of our visitors, customers, and subscribers. This Privacy Policy document contains the types of information that is collected and recorded by us and how we use it.
+          <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+            If you have additional questions or require more information about our Privacy Policy, do
+            not hesitate to contact us through our official corporate communication channels.
           </p>
-          <p>
-            If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through our official corporate communication channels.
-          </p>
+
+          {/* 1 */}
+          <section>
+            <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
+              <span className="text-cyber-blue">1.</span> Information We Collect
+            </h2>
+            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              The personal information that you are asked to provide, and the reasons why you are
+              asked to provide it, will be made clear to you at the point we ask you to provide your
+              personal information.
+            </p>
+            <div className="mt-5 space-y-4">
+              <div className="pl-4 border-l border-cyber-blue/15">
+                <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+                  <span className="text-white font-semibold">Account and Subscription Information: </span>
+                  When you register on our platforms, purchase a SaaS subscription, or sign up for our media publications and newsletters, we collect your email address and profile details to deliver our content, tools, and updates.
+                </p>
+              </div>
+              <div className="pl-4 border-l border-cyber-blue/15">
+                <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+                  <span className="text-white font-semibold">Transaction and Billing Data: </span>
+                  For purchases made through our SaaS platforms, digital products, or e-commerce storefronts, we or our third-party payment processors collect payment details, billing addresses, and necessary order fulfillment information.
+                </p>
+              </div>
+              <div className="pl-4 border-l border-cyber-blue/15">
+                <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+                  <span className="text-white font-semibold">Mobile Device Information: </span>
+                  If you explicitly choose to provide your mobile phone number for transactional
+                  notifications, automated digital delivery updates, or operational alerts, we collect your phone number
+                  and communication preferences.
+                </p>
+              </div>
+              <div className="pl-4 border-l border-cyber-blue/15">
+                <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+                  <span className="text-white font-semibold">Log Files: </span>
+                  We follow a standard procedure of using log files through our hosting
+                  platforms. These files log visitors when they visit websites. The information
+                  collected by log files includes internet protocol (IP) addresses, browser type,
+                  Internet Service Provider (ISP), date and time stamps, referring/exit pages, and
+                  possibly the number of clicks.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* 2 */}
+          <section>
+            <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
+              <span className="text-cyber-blue">2.</span> How We Use Your Information
+            </h2>
+            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              We use the information we collect in various ways, including to:
+            </p>
+            <ul className="mt-4 space-y-2.5 pl-1">
+              <li className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] flex gap-3">
+                <span className="text-cyber-blue mt-2 shrink-0 w-1.5 h-1.5 rounded-full bg-cyber-blue" />
+                Provide, operate, and maintain our corporate website, publications, and SaaS platforms.
+              </li>
+              <li className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] flex gap-3">
+                <span className="text-cyber-blue mt-2 shrink-0 w-1.5 h-1.5 rounded-full bg-cyber-blue" />
+                Improve, personalize, and expand our digital content, products, and online stores.
+              </li>
+              <li className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] flex gap-3">
+                <span className="text-cyber-blue mt-2 shrink-0 w-1.5 h-1.5 rounded-full bg-cyber-blue" />
+                Understand and analyze how users interact with our publications, storefronts, and applications.
+              </li>
+              <li className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] flex gap-3">
+                <span className="text-cyber-blue mt-2 shrink-0 w-1.5 h-1.5 rounded-full bg-cyber-blue" />
+                Develop new products, services, features, and functionality.
+              </li>
+              <li className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] flex gap-3">
+                <span className="text-cyber-blue mt-2 shrink-0 w-1.5 h-1.5 rounded-full bg-cyber-blue" />
+                Communicate with you, either directly or through our service partners, to provide you with customer service, updates, and transactional notes.
+              </li>
+              <li className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] flex gap-3">
+                <span className="text-cyber-blue mt-2 shrink-0 w-1.5 h-1.5 rounded-full bg-cyber-blue" />
+                Process mobile alerts and SMS notifications under strictly compliant protocols, with your express consent.
+              </li>
+              <li className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] flex gap-3">
+                <span className="text-cyber-blue mt-2 shrink-0 w-1.5 h-1.5 rounded-full bg-cyber-blue" />
+                Process payments and fulfill physical or digital product orders.
+              </li>
+              <li className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] flex gap-3">
+                <span className="text-cyber-blue mt-2 shrink-0 w-1.5 h-1.5 rounded-full bg-cyber-blue" />
+                Find and prevent fraudulent activities.
+              </li>
+            </ul>
+          </section>
+
+          {/* 3 */}
+          <section>
+            <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
+              <span className="text-cyber-blue">3.</span> Third-Party Privacy Policies
+            </h2>
+            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              Our Privacy Policy does not apply to external advertisers, external services, payment processors, or third-party websites that we link to (such as dropshipping fulfillment networks or affiliate partner sites). We advise you to consult the respective Privacy Policies of these third-party platforms for more detailed information regarding their data handling operations and instructions on how to opt-out of certain options.
+            </p>
+          </section>
+
+          {/* 4 */}
+          <section>
+            <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
+              <span className="text-cyber-blue">4.</span> California Consumer Privacy Act (CCPA) &amp;
+              GDPR Rights
+            </h2>
+            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              Depending on your geographical location, you may have the following rights regarding
+              your personal data:
+            </p>
+            <ul className="mt-4 space-y-2.5 pl-1">
+              <li className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] flex gap-3">
+                <span className="text-cyber-blue mt-2 shrink-0 w-1.5 h-1.5 rounded-full bg-cyber-blue" />
+                The right to request that a business disclose the categories and specific pieces of
+                personal data that a business has collected about consumers.
+              </li>
+              <li className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] flex gap-3">
+                <span className="text-cyber-blue mt-2 shrink-0 w-1.5 h-1.5 rounded-full bg-cyber-blue" />
+                The right to request that a business delete any personal data about the consumer that
+                a business has collected, subject to certain legal exceptions.
+              </li>
+              <li className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] flex gap-3">
+                <span className="text-cyber-blue mt-2 shrink-0 w-1.5 h-1.5 rounded-full bg-cyber-blue" />
+                The right to data portability and restriction of processing. If you make a request, we
+                have one month to respond to you. If you would like to exercise any of these rights,
+                please contact us.
+              </li>
+            </ul>
+          </section>
+
+          {/* 5 */}
+          <section>
+            <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
+              <span className="text-cyber-blue">5.</span> Strict Mobile Information Privacy (A2P
+              10DLC Standard)
+            </h2>
+            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              We strictly adhere to the highest privacy principles regarding mobile numbers and
+              messaging consent.
+            </p>
+            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] mt-3">
+              <span className="text-white font-semibold">SMS Consent and Phone Numbers Privacy
+              Protection: </span>
+              Notwithstanding anything to the contrary in this Privacy Policy, mobile phone numbers
+              collected for the purpose of SMS notifications, text messaging consent, or mobile
+              alerts will NEVER be shared, sold, rented, leased, or disclosed to third parties, affiliates, or
+              close partners for marketing, commercial, or promotional purposes. Your mobile data
+              consent is kept entirely confidential within ACR Enterprises LLC and is used
+              exclusively for the transactional, operational, or requested promotional purposes specified at the moment of collection.
+            </p>
+          </section>
+
+          {/* 6 */}
+          <section>
+            <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
+              <span className="text-cyber-blue">6.</span> Children&rsquo;s Information
+            </h2>
+            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              Another part of our priority is adding protection for children while using the
+              internet. We encourage parents and guardians to observe, participate in, and/or
+              monitor and guide their online activity. ACR Enterprises LLC does not knowingly collect any
+              Personal Identifiable Information from children under the age of 13.
+            </p>
+          </section>
+
+          {/* 7 */}
+          <section>
+            <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
+              <span className="text-cyber-blue">7.</span> Consent
+            </h2>
+            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              By using our websites, purchasing our products, subscribing to our digital properties, or providing your contact
+              information, you hereby consent to our Privacy Policy and agree to its terms.
+            </p>
+          </section>
         </div>
 
-        {/* Content Sections */}
-        <div className="space-y-10">
-          
-          {/* Section 1 */}
-          <section className="bg-slate-900/50 border border-slate-800/80 rounded-2xl p-6 sm:p-8 hover:border-slate-700/50 transition-colors">
-            <div className="flex items-start space-x-4">
-              <div className="p-2 bg-blue-500/10 rounded-lg text-blue-400 mt-1">
-                <FileText className="w-5 h-5" />
-              </div>
-              <div className="flex-1">
-                <h2 className="text-xl font-bold text-white mb-4">1. Information We Collect</h2>
-                <p className="text-slate-300 mb-4 text-sm sm:text-base leading-relaxed">
-                  The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask for it.
-                </p>
-                <ul className="space-y-3 text-slate-400 text-sm sm:text-base">
-                  <li className="flex items-start">
-                    <span className="text-blue-400 mr-2 font-bold">•</span>
-                    <span>
-                      <strong className="text-slate-200">Account and Subscription Information:</strong> When you register on our platforms, purchase a SaaS subscription, or sign up for our media publications and newsletters, we collect your email address and profile details to deliver our content, tools, and updates.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-400 mr-2 font-bold">•</span>
-                    <span>
-                      <strong className="text-slate-200">Transaction and Billing Data:</strong> For purchases made through our SaaS platforms, digital products, or e-commerce storefronts, we or our third-party payment processors collect payment details, billing addresses, and necessary order fulfillment information.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-400 mr-2 font-bold">•</span>
-                    <span>
-                      <strong className="text-slate-200">Mobile Device Information:</strong> If you explicitly choose to provide your mobile phone number for transactional notifications, automated digital delivery updates, or operational alerts, we collect your phone number and communication preferences.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-400 mr-2 font-bold">•</span>
-                    <span>
-                      <strong className="text-slate-200">Log Files:</strong> We follow a standard procedure of using log files through our hosting platforms. These files log visitors when they visit our websites. The information collected includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamps, referring/exit pages, and possibly the number of clicks.
-                    </span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </section>
-
-          {/* Section 2 */}
-          <section className="bg-slate-900/50 border border-slate-800/80 rounded-2xl p-6 sm:p-8 hover:border-slate-700/50 transition-colors">
-            <div className="flex items-start space-x-4">
-              <div className="p-2 bg-indigo-500/10 rounded-lg text-indigo-400 mt-1">
-                <Globe className="w-5 h-5" />
-              </div>
-              <div className="flex-1">
-                <h2 className="text-xl font-bold text-white mb-4">2. How We Use Your Information</h2>
-                <p className="text-slate-300 mb-4 text-sm sm:text-base">
-                  We use the information we collect in various ways, including to:
-                </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-slate-400 text-sm">
-                  {[
-                    "Provide, operate, and maintain our corporate website, publications, and SaaS platforms.",
-                    "Improve, personalize, and expand our digital content, products, and online stores.",
-                    "Understand and analyze how users interact with our publications, storefronts, and applications.",
-                    "Develop new products, services, features, and functionality.",
-                    "Communicate with you (directly or via partners) for customer service, updates, and transactional notes.",
-                    "Process mobile alerts and SMS notifications under strictly compliant protocols, with your express consent.",
-                    "Process payments and fulfill physical or digital product orders.",
-                    "Find and prevent fraudulent activities."
-                  ].map((item, index) => (
-                    <div key={index} className="flex items-center space-x-2 bg-slate-950/60 p-2.5 rounded-lg border border-slate-800/40">
-                      <CheckCircle className="w-4 h-4 text-emerald-400 shrink-0" />
-                      <span>{item}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Section 3 */}
-          <section className="bg-slate-900/50 border border-slate-800/80 rounded-2xl p-6 sm:p-8 hover:border-slate-700/50 transition-colors">
-            <div className="flex items-start space-x-4">
-              <div className="p-2 bg-purple-500/10 rounded-lg text-purple-400 mt-1">
-                <Users className="w-5 h-5" />
-              </div>
-              <div className="flex-1">
-                <h2 className="text-xl font-bold text-white mb-4">3. Third-Party Privacy Policies</h2>
-                <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-                  Our Privacy Policy does not apply to external advertisers, external services, payment processors, or third-party websites that we link to (such as dropshipping fulfillment networks or affiliate partner sites). We advise you to consult the respective Privacy Policies of these third-party platforms for more detailed information regarding their data handling operations and instructions on how to opt-out of certain options.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* Section 4 */}
-          <section className="bg-slate-900/50 border border-slate-800/80 rounded-2xl p-6 sm:p-8 hover:border-slate-700/50 transition-colors">
-            <div className="flex items-start space-x-4">
-              <div className="p-2 bg-amber-500/10 rounded-lg text-amber-400 mt-1">
-                <Lock className="w-5 h-5" />
-              </div>
-              <div className="flex-1">
-                <h2 className="text-xl font-bold text-white mb-4">4. California Consumer Privacy Act (CCPA) & GDPR Rights</h2>
-                <p className="text-slate-300 mb-4 text-sm sm:text-base">
-                  Depending on your geographical location, you may have the following rights regarding your personal data:
-                </p>
-                <div className="space-y-3 text-slate-400 text-sm sm:text-base">
-                  <p>
-                    <strong className="text-slate-200">The Right to Know/Access:</strong> The right to request that we disclose the categories and specific pieces of personal data we have collected about you.
-                  </p>
-                  <p>
-                    <strong className="text-slate-200">The Right to Delete:</strong> The right to request that we delete any of your personal data that we have collected, subject to certain legal exceptions.
-                  </p>
-                  <p>
-                    <strong className="text-slate-200">The Right to Data Portability:</strong> The right to request that we transfer your collected data to another organization or directly to you.
-                  </p>
-                  <p>
-                    <strong className="text-slate-200">The Right to Restrict Processing:</strong> The right to request that we limit how we process your personal data.
-                  </p>
-                  <p className="text-xs text-slate-500 italic mt-2">
-                    If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Section 5 - STAMP 10DLC */}
-          <section className="relative overflow-hidden bg-gradient-to-b from-blue-950/40 to-indigo-950/20 border-2 border-blue-500/30 rounded-2xl p-6 sm:p-8 shadow-lg shadow-blue-500/5">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-full blur-2xl pointer-events-none"></div>
-            <div className="flex items-start space-x-4">
-              <div className="p-2.5 bg-blue-500/20 rounded-xl text-blue-400 mt-1 border border-blue-400/20">
-                <Smartphone className="w-5 h-5" />
-              </div>
-              <div className="flex-1">
-                <h2 className="text-xl font-bold text-white mb-2 flex items-center">
-                  5. Strict Mobile Information Privacy
-                  <span className="ml-2 text-xs font-mono bg-blue-500/20 text-blue-300 px-2.5 py-0.5 rounded-full border border-blue-500/30">
-                    A2P 10DLC Standard
-                  </span>
-                </h2>
-                <p className="text-slate-400 text-xs sm:text-sm font-mono mb-4">
-                  We strictly adhere to the highest privacy principles regarding mobile numbers and messaging consent.
-                </p>
-                <div className="bg-slate-950/80 rounded-xl p-4 border border-slate-800/80">
-                  <p className="text-slate-300 text-sm leading-relaxed">
-                    <strong className="text-blue-400">SMS Consent and Phone Numbers Privacy Protection:</strong> Notwithstanding anything to the contrary in this Privacy Policy, mobile phone numbers collected for the purpose of SMS notifications, text messaging consent, or mobile alerts will <span className="text-white font-bold underline decoration-blue-400 underline-offset-4">NEVER</span> be shared, sold, rented, leased, or disclosed to third parties, affiliates, or close partners for marketing, commercial, or promotional purposes. Your mobile data consent is kept entirely confidential within ACR Enterprises LLC and is used exclusively for the transactional, operational, or requested promotional purposes specified at the moment of collection.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Section 6 */}
-          <section className="bg-slate-900/50 border border-slate-800/80 rounded-2xl p-6 sm:p-8 hover:border-slate-700/50 transition-colors">
-            <div className="flex items-start space-x-4">
-              <div className="p-2 bg-pink-500/10 rounded-lg text-pink-400 mt-1">
-                <AlertCircle className="w-5 h-5" />
-              </div>
-              <div className="flex-1">
-                <h2 className="text-xl font-bold text-white mb-4">6. Children's Information</h2>
-                <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-                  Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity. ACR Enterprises LLC does not knowingly collect any Personal Identifiable Information from children under the age of 13.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* Section 7 */}
-          <section className="bg-slate-900/50 border border-slate-800/80 rounded-2xl p-6 sm:p-8 hover:border-slate-700/50 transition-colors">
-            <div className="flex items-start space-x-4">
-              <div className="p-2 bg-emerald-500/10 rounded-lg text-emerald-400 mt-1">
-                <CheckCircle className="w-5 h-5" />
-              </div>
-              <div className="flex-1">
-                <h2 className="text-xl font-bold text-white mb-4">7. Consent</h2>
-                <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-                  By using our websites, purchasing our products, subscribing to our digital properties, or providing your contact information, you hereby consent to our Privacy Policy and agree to its terms.
-                </p>
-              </div>
-            </div>
-          </section>
-
-        </div>
-
-        {/* Footer info note */}
-        <div className="text-center text-xs text-slate-500 mt-16 border-t border-slate-900 pt-8">
-          <p>© {new Date().getFullYear()} ACR Enterprises LLC. All rights reserved.</p>
-        </div>
-
+        {/* ==================== EDIT CONTENT ABOVE ==================== */}
       </div>
     </div>
   );
 }
+
+export default Privacy;
