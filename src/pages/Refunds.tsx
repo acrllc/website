@@ -34,7 +34,7 @@ function Refunds() {
           Our policy regarding refunds for products and services offered by ACR Enterprises LLC.
         </p>
         <p className="text-xs text-cyber-steel/50 uppercase tracking-wider mb-12">
-          Last Updated: July 14, 2026
+          Last Updated: May 21, 2026
         </p>
 
         <div className="h-px bg-gradient-to-r from-cyber-blue/30 via-white/10 to-transparent mb-12" />
@@ -45,7 +45,7 @@ function Refunds() {
           <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
             At ACR Enterprises LLC (referred to as &ldquo;Company&rdquo;, &ldquo;we&rdquo;,
             &ldquo;us&rdquo;, or &ldquo;our&rdquo;), we operate a diverse portfolio of digital
-            initiatives, media properties (including TheTrendVibe), e-commerce channels, and
+            initiatives, media properties (including TheTrendVibe and Nexo24), e-commerce channels, and
             consulting services. Because of the distinct nature of each of our business divisions,
             our refund and return policies are managed independently by &ldquo;vertical.&rdquo;
             Please review the specific terms below associated with the product or service you have
