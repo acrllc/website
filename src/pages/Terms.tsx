@@ -43,162 +43,178 @@ function Terms() {
 
         <div className="space-y-8">
           <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
-            Welcome to TheTrendVibe (the &ldquo;Service&rdquo;), a digital media property owned and
-            operated by ACR Enterprises LLC (&ldquo;Company&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;,
-            or &ldquo;our&rdquo;). By accessing or using our website, subscribing to our newsletter
-            via Substack, or interacting with our digital properties, you agree to be bound by these
-            Terms of Service (&ldquo;Terms&rdquo;). If you do not agree with these Terms, please do
-            not use our Service.
+            Welcome to <strong>ACR Enterprises LLC</strong> (&ldquo;Company&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;,
+            or &ldquo;our&rdquo;). These Terms of Service (&ldquo;Terms&rdquo;) govern your access to and use of our corporate website acrenterprises.us, as well as all products, services, SaaS applications, media publications TheTrendVibe and Nexo24, e-commerce storefronts, and elite consulting engagements operated by us (collectively, the &ldquo;Services&rdquo;).
+          </p>
+          <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+            By accessing or using any part of our Services, you agree to be bound by these Terms. If you do not agree to all of these Terms, you may not access or use our Services.
           </p>
 
           {/* 1 */}
           <section>
             <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
-              <span className="text-cyber-blue">1.</span> Acceptance of Terms
+              <span className="text-cyber-blue">1.</span> Our Business Verticals & Scope of Services
             </h2>
-            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
-              By utilizing TheTrendVibe, you affirm that you are at least 18 years of age or possess
-              legal parental or guardian consent, and are fully able and competent to enter into the
-              terms, conditions, obligations, affirmations, representations, and warranties set
-              forth in these Terms.
+            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] mb-3">
+              ACR Enterprises LLC operates a diverse portfolio of digital initiatives. By using our Services, you acknowledge that our operations span the following distinct business sectors:
             </p>
+            <ul className="space-y-3 pl-5 list-disc text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              <li>
+                <span className="text-white font-semibold">Digital Entertainment & SaaS:</span> We offer subscription-based access to proprietary digital entertainment software and Software-as-a-Service (SaaS) platforms.
+              </li>
+              <li>
+                <span className="text-white font-semibold">Media & Content Publishing:</span> We publish informational, tech-forward, and cultural content across our media properties and platforms, including <em>TheTrendVibe</em> and <em>Nexo24</em>.
+              </li>
+              <li>
+                <span className="text-white font-semibold">E-Commerce & Audience Growth:</span> We operate online storefronts and market digital products (such as downloadable guides, books, and courses) as well as physical goods via dropshipping and affiliate program channels.
+              </li>
+              <li>
+                <span className="text-white font-semibold">Selective Elite Consulting:</span> We provide high-end, tailored advisory and consulting services in technology, information systems, digital marketing, and artificial intelligence (AI) for entrepreneurs.
+              </li>
+            </ul>
           </section>
 
           {/* 2 */}
           <section>
             <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
-              <span className="text-cyber-blue">2.</span> Intellectual Property Rights
+              <span className="text-cyber-blue">2.</span> Eligibility & User Accounts
             </h2>
-            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
-              All content published on TheTrendVibe, including text, graphics, logos, images, sports
-              summaries, data analyses, and software scripts, is the property of ACR Enterprises LLC
-              or its content creators and is protected by United States and international copyright,
-              trademark, and intellectual property laws. You may not reproduce, distribute, modify,
-              or exploit any content without express written permission from us.
-            </p>
+            <ul className="space-y-3 pl-5 list-disc text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              <li>
+                <span className="text-white font-semibold">Age Requirements:</span> You must be at least 18 years of age (or the legal age of majority in your jurisdiction) to use our Services or register for an account.
+              </li>
+              <li>
+                <span className="text-white font-semibold">Account Responsibility:</span> If any of our Services require you to create an account, you are solely responsible for maintaining the confidentiality of your credentials and for all activities that occur under your account. You agree to provide accurate, current, and complete information at all times.
+              </li>
+            </ul>
           </section>
 
           {/* 3 */}
           <section>
             <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
-              <span className="text-cyber-blue">3.</span> Third-Party Services
+              <span className="text-cyber-blue">3.</span> SMS & Mobile Communications
             </h2>
-            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
-              Our Service integrates with third-party platforms to deliver content and manage user
-              subscriptions, including Substack for newsletter delivery. By interacting with these
-              platforms through our Service, you also agree to comply with their respective terms and
-              conditions.
+            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] mb-4">
+              By providing your phone number to ACR Enterprises LLC or through any of our storefronts, subscription platforms, or consulting application forms, you expressly consent to receive transactional, operational, and promotional text messages (including SMS and MMS) from us or our third-party service providers.
             </p>
+            <ul className="space-y-3 pl-5 list-disc text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              <li>
+                <span className="text-white font-semibold">Opt-Out:</span> You can opt-out of receiving SMS communications at any time by replying &ldquo;STOP&rdquo; to any text message you receive from us.
+              </li>
+              <li>
+                <span className="text-white font-semibold">Rates:</span> Message and data rates may apply depending on your mobile carrier plan. Frequency of messages varies based on your interactions with our Services.
+              </li>
+            </ul>
           </section>
 
           {/* 4 */}
           <section>
             <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
-              <span className="text-cyber-blue">4.</span> SMS and Mobile Messaging (A2P 10DLC
-              Compliance)
+              <span className="text-cyber-blue">4.</span> Intellectual Property Rights
             </h2>
-            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
-              In the event that you provide your mobile phone number to us through any of our
-              registration forms, subscription checkout, or contact channels, you expressly
-              acknowledge and agree that your number will be managed and used strictly under the A2P
-              10DLC Compliance regulations of the United States telecommunications network.
-            </p>
-            <div className="mt-5 space-y-4">
-              <div className="pl-4 border-l border-cyber-blue/15">
-                <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
-                  <span className="text-white font-semibold">Purpose of Messages: </span>
-                  If applicable, text messages will be used solely to deliver transactional updates,
-                  digital delivery confirmations, account notifications, or requested summaries.
-                </p>
-              </div>
-              <div className="pl-4 border-l border-cyber-blue/15">
-                <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
-                  <span className="text-white font-semibold">Opt-Out (Stop): </span>
-                  You can cancel any SMS service at any time by replying STOP to any message received.
-                  Upon receiving your &ldquo;STOP&rdquo; request, we will send a final confirmation
-                  message, and no further text messages will be sent to your number.
-                </p>
-              </div>
-              <div className="pl-4 border-l border-cyber-blue/15">
-                <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
-                  <span className="text-white font-semibold">Support (Help): </span>
-                  For assistance or inquiries regarding mobile notifications, you may reply with the
-                  keyword HELP or contact our support channels directly.
-                </p>
-              </div>
-              <div className="pl-4 border-l border-cyber-blue/15">
-                <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
-                  <span className="text-white font-semibold">Carrier Rates: </span>
-                  Standard message and data rates may apply depending on your wireless
-                  provider&rsquo;s mobile plan.
-                </p>
-              </div>
-            </div>
+            <ul className="space-y-3 pl-5 list-disc text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              <li>
+                <span className="text-white font-semibold">Our Content:</span> All content, software, code, designs, graphics, logos, trademarks, and educational materials provided through our Services are the intellectual property of ACR Enterprises LLC or our licensors and are protected by copyright, trademark, and other proprietary laws.
+              </li>
+              <li>
+                <span className="text-white font-semibold">Limited License:</span> We grant you a limited, non-exclusive, non-transferable, and revocable license to access our publicly available content and platforms strictly for your personal, non-commercial use, or as expressly permitted under a separate written agreement (such as a Consulting Statement of Work).
+              </li>
+            </ul>
           </section>
 
           {/* 5 */}
           <section>
             <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
-              <span className="text-cyber-blue">5.</span> Privacy and Data Sharing
+              <span className="text-cyber-blue">5.</span> Payments, Subscriptions & Refunds
             </h2>
-            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
-              Your privacy is critically important to us. We collect and process user data in
-              accordance with our Privacy Policy.
-            </p>
-            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] mt-3">
-              <span className="text-white font-semibold">Mobile Information Privacy: </span>
-              Notwithstanding anything to the contrary in our policies, mobile phone numbers
-              collected for the purpose of text messaging notifications and consent will strictly
-              NOT be shared, sold, or rented to third parties, partners, or affiliates for marketing
-              or promotional purposes.
-            </p>
+            <ul className="space-y-3 pl-5 list-disc text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              <li>
+                <span className="text-white font-semibold">Billing:</span> Access to certain SaaS products, premium publishing tiers, or consulting services may require one-time payments or recurring subscriptions. You agree to provide valid payment information and authorize us (or our third-party payment processors) to charge all due amounts.
+              </li>
+              <li>
+                <span className="text-white font-semibold">Cancellations & Refunds:</span> All subscription billing, cancellations, and product refund rules are strictly subject to our official **Refund & Return Policy**. Each business vertical handles cancellations and refunds independently (e.g., e-commerce physical returns are managed by suppliers, digital product and SaaS subscription purchases are generally non-refundable).
+              </li>
+            </ul>
           </section>
 
           {/* 6 */}
           <section>
             <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
-              <span className="text-cyber-blue">6.</span> Limitation of Liability
+              <span className="text-cyber-blue">6.</span> Third-Party Links & Services
             </h2>
-            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
-              In no event shall ACR Enterprises LLC, its directors, employees, or agents, be liable
-              for any indirect, incidental, special, consequential, or punitive damages, including
-              without limitation, loss of profits, data, use, goodwill, or other intangible losses,
-              resulting from your access to or use of the Service.
-            </p>
+            <ul className="space-y-3 pl-5 list-disc text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              <li>
+                <span className="text-white font-semibold">External Platforms:</span> Our Services may contain links to third-party websites, platforms, dropshipping suppliers, or affiliate networks.
+              </li>
+              <li>
+                <span className="text-white font-semibold">No Endorsement:</span> We do not own, control, or monitor these third-party platforms. ACR Enterprises LLC is not responsible for the content, privacy policies, terms, or transactions executed on any third-party website. Your interactions with third parties are solely between you and the respective third party.
+              </li>
+            </ul>
           </section>
 
           {/* 7 */}
           <section>
             <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
-              <span className="text-cyber-blue">7.</span> Governing Law
+              <span className="text-cyber-blue">7.</span> Prohibited Conduct
             </h2>
-            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
-              These Terms shall be governed and construed in accordance with the laws of the United
-              States and the State in which ACR Enterprises LLC is legally registered, without
-              regard to its conflict of law provisions.
+            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] mb-3">
+              When using our Services, you agree not to:
             </p>
+            <ul className="space-y-3 pl-5 list-disc text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              <li>Violate any applicable local, state, national, or international laws.</li>
+              <li>Copy, distribute, modify, reverse engineer, or scrape any part of our website, SaaS applications, or digital products without prior written authorization.</li>
+              <li>Use our systems to transmit malware, viruses, or spam, or attempt to compromise our cyber-security infrastructure.</li>
+              <li>Impersonate any individual or entity or misrepresent your affiliation with ACR Enterprises LLC.</li>
+            </ul>
           </section>
 
           {/* 8 */}
           <section>
             <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
-              <span className="text-cyber-blue">8.</span> Changes to Terms
+              <span className="text-cyber-blue">8.</span> DISCLAIMER OF WARRANTIES
             </h2>
-            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
-              We reserve the right, at our sole discretion, to modify or replace these Terms at any
-              time. We will provide notice of any material changes by updating the &ldquo;Last
-              Updated&rdquo; date at the top of this page.
+            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] uppercase tracking-wide">
+              YOUR USE OF THE SERVICES IS AT YOUR SOLE RISK. THE SERVICES ARE PROVIDED ON AN &ldquo;AS IS&rdquo; AND &ldquo;AS AVAILABLE&rdquo; BASIS. ACR ENTERPRISES LLC EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT GUARANTEE THAT THE SERVICES WILL BE UNINTERRUPTED, SECURE, ACCURATE, OR ERROR-FREE.
             </p>
           </section>
 
           {/* 9 */}
           <section>
             <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
-              <span className="text-cyber-blue">9.</span> Contact Information
+              <span className="text-cyber-blue">9.</span> LIMITATION OF LIABILITY
+            </h2>
+            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8] uppercase tracking-wide">
+              TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL ACR ENTERPRISES LLC, ITS DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOSS OF PROFITS, DATA, USE, OR GOODWILL, ARISING OUT OF OR IN CONNECTION WITH YOUR ACCESS TO OR USE OF (OR INABILITY TO ACCESS OR USE) OUR SERVICES.
+            </p>
+          </section>
+
+          {/* 10 */}
+          <section>
+            <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
+              <span className="text-cyber-blue">10.</span> Governing Law & Dispute Resolution
             </h2>
             <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
-              If you have any questions about these Terms, please contact us through our official
-              corporate communication channels.
+              These Terms and any dispute arising out of your use of our Services shall be governed by and construed in accordance with the laws of the United States and the State where ACR Enterprises LLC is officially registered, without regard to conflict of law principles. Any legal action or proceeding shall be brought exclusively in the appropriate courts of that jurisdiction.
+            </p>
+          </section>
+
+          {/* 11 */}
+          <section>
+            <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
+              <span className="text-cyber-blue">11.</span> Modifications to Terms
+            </h2>
+            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              We reserve the right to update or modify these Terms at any time without prior notice. The &ldquo;Last Updated&rdquo; date at the top of this document will indicate when the latest revisions were made. Your continued use of our Services following any updates constitutes your acceptance of the new Terms of Service.
+            </p>
+          </section>
+
+          {/* 12 */}
+          <section>
+            <h2 className="heading-display text-lg lg:text-xl font-bold text-white mb-3">
+              <span className="text-cyber-blue">12.</span> Contact Information
+            </h2>
+            <p className="text-sm lg:text-base text-cyber-silver/70 leading-[1.8]">
+              If you have any questions, concerns, or legal inquiries regarding these Terms, please contact us through our official corporate communication channels.
             </p>
           </section>
         </div>
